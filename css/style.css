@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+.view-posts a {
+    background-color: #7F56D9;
+    width: 150px;
+}
+
+.card-title {
+    color: #6941C6;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.card-body h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.card-text {
+    color: #475467;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.avatar-info span {
+    display: block;
+    margin-left: 10px;
+}
+
+.avatar-info span:nth-child(1) {
+    color: #101828;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.avatar-info span:nth-child(2) {
+    color: #475467;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-info {
+         flex-direction: column;
+         flex-wrap: wrap;
+         align-content: center;
+     }
+   }
